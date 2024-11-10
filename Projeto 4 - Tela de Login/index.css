@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divisao1 {
+    background-color: rgb(115, 174, 174);
+    width: 50%;
+    height: 100vh;
+}
+
+.divisao2 {
+    background-color: brown;
+    width: 50%;
+    height: 100vh;
+}
+
+.Login {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 2rem;
+    width: 35%;
+}
+
+.Login form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    align-items: center;
+
+}
+
+.Login form button {
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: none;
+    width: 200px;
+}
+
+.Login form input {
+    padding: 0.5rem 0.8rem;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
